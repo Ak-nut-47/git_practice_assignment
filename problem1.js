@@ -1,5 +1,12 @@
-//Problem 1 : Check whether a number is Prime or not
+// Problem -1 check whether a number is prime or not
 
-let i = 0; i < package
-console log why this number is not prime ?
-print Infinity "prime"
+let number = 11;
+let count = 0
+for (let i = 1; i <= number; i++) { 
+    if (number % i == 0) { count++ }
+    
+}
+if (count == 2) { 
+    console.log("Number is Prime")
+    
+}else { console.log("Not a Prime")}

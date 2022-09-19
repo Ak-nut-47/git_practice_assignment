@@ -1,5 +1,24 @@
-//Problem 2 : Check whether a string is palindrome or not.
+var arr = ["Ramesh", "Suresh", "Ramesh", "Kamlesh", "Suresh", "Rupak"];
+var party = [];
+var present = false;
+for(var i = 0; i<arr.length; i++)
+{
 
-let string = streeng 
-if palindrome write console log backwards;
-print i am palindrome{{}}
+for(var j=0; j<party.length; j++)
+{
+if(arr[i] == party[j])
+{
+present= true;
+break;
+}
+}
+if(present == false)
+{
+party.push(arr[i]);
+}
+else
+{
+present = false;
+}
+}
+console.log(party);
